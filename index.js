@@ -23,9 +23,9 @@ app.get('/services', (req, res) => {
     }
 })
 
-app.get('/pricing', (req, res) => { 
+app.get('/about', (req, res) => { 
     try {
-        res.render('pricing')
+        res.render('about')
     } catch (error) {
         console.error(error);
     }
