@@ -8706,7 +8706,7 @@ h1, h2, h3, h4, h5,
       .car-wrap .text .price span {
         font-size: 12px;
         font-weight: 400;
-        color: rgba(0, 0, 0, 0.3); }
+        color: #000814; }
     .car-wrap .text h2 {
       font-size: 20px;
       font-weight: 500; }
@@ -8714,7 +8714,7 @@ h1, h2, h3, h4, h5,
         color: #000000; }
     .car-wrap .text span.cat {
       font-weight: 400;
-      color: rgba(0, 0, 0, 0.2);
+      color: #000814;
       display: block;
       margin-bottom: 0; }
     .car-wrap .text p.d-block {

@@ -15,14 +15,6 @@ app.get('/', (req, res) => {
     }
 });
 
-app.get('/services', (req, res) => { 
-    try {
-        res.render('services')
-    } catch (error) {
-        console.error(error);
-    }
-})
-
 app.get('/about', (req, res) => { 
     try {
         res.render('about')
@@ -42,6 +34,22 @@ app.get('/cars', (req, res) => {
 app.get('/contact', (req, res) => { 
     try {
         res.render('contact')
+    } catch (error) {
+        console.error(error);
+    }
+})
+
+app.get('/drivers', (req, res) => { 
+    try {
+        res.render('drivers')
+    } catch (error) {
+        console.error(error);
+    }
+})
+
+app.get('/rental', (req, res) => { 
+    try {
+        res.render('rental')
     } catch (error) {
         console.error(error);
     }
