@@ -77,6 +77,11 @@
 }
 
 .btn-hover.color-1 {
-    background-image: linear-gradient(to right, #003566, #065aa9, #055aa9, #034079 );
+    background-image: linear-gradient(to right, #003566, #065aa9, #055aa9, #034079);
     box-shadow: 0 1px 5px 0 #0766c0;
+}
+
+.custom-card {
+    border-radius: 20px;
+    height: 420px;
 }

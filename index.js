@@ -55,6 +55,14 @@ app.get('/rental', (req, res) => {
     }
 })
 
+app.get('/careers', (req, res) => { 
+    try {
+        res.render('careers')
+    } catch (error) {
+        console.error(error);
+    }
+})
+
 app.listen(3000, () => {
     console.log('server running');
 })
