@@ -87,6 +87,14 @@ app.get('/events', (req, res) => {
     }
 })
 
+app.get('/surprise', (req, res) => { 
+    try {
+        res.render('surprise')
+    } catch (error) {
+        console.error(error);
+    }
+})
+
 app.listen(3000, () => {
     console.log('server running');
 })
