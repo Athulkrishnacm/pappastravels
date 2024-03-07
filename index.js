@@ -79,6 +79,14 @@ app.get('/tour', (req, res) => {
     }
 })
 
+app.get('/events', (req, res) => { 
+    try {
+        res.render('events')
+    } catch (error) {
+        console.error(error);
+    }
+})
+
 app.listen(3000, () => {
     console.log('server running');
 })
