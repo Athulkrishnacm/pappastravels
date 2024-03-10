@@ -89,13 +89,12 @@
 
 .slider-container {
     overflow: hidden;
-    width: 100%;
+
     .slider {
         animation: slidein 30s linear infinite;
         white-space: nowrap;
 
         .logos {
-            width: 100%;
             display: inline-block;
             margin: 0px 0;
 
