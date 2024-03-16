@@ -139,7 +139,36 @@
     height: 400px;
 }
 
-.travel-img{
+.travel-img {
     width: 100%;
     height: 350px;
+}
+
+/* Custom styles for the fixed button */
+.fixed-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #01d28e;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    animation: zoomInOut 1s infinite alternate;
+}
+
+@keyframes zoomInOut {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.fixed-btn:hover {
+    background-color: #03b87c;
 }
