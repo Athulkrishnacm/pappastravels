@@ -133,7 +133,6 @@
     }
 }
 
-
 .travel-card {
     width: 100%;
     height: 400px;
@@ -172,3 +171,32 @@
 .fixed-btn:hover {
     background-color: #03b87c;
 }
+
+.call-btn {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #003566;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    animation: zoomOutIn 1s infinite alternate;
+}
+
+@keyframes zoomOutIn {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.call-btn:hover {
+    background-color: #00396e;
+}
+
