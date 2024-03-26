@@ -200,3 +200,12 @@
     background-color: #00396e;
 }
 
+.review {
+    height: 530px;
+}
+
+@media (min-width: 310px) {
+    .review {
+        height: 430px;
+    }
+}
